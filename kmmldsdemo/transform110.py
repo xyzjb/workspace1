@@ -18,7 +18,7 @@ def transform():
    
     #list2=json.loads("["+abc+","+bcd+"]")
     list1=["abcde0001","cgnwf0046"]
-    list2=json.dumps(list1)
+    list2=json.loads(json.dumps(list1))
     #list2=json.loads(json.dumps("[\""+abc+"\",\""+bcd+"\"]"))
     
     Path(args.output_list).parent.mkdir(parents=True, exist_ok=True)
