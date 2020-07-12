@@ -7,7 +7,7 @@ def transform():
     parser = argparse.ArgumentParser(description='Returns sum of two arguments')
     #parser.add_argument("--list_data", type=str, required=True)
     #parser.add_argument("--output_path", type=str, required=True)
-    parser.add_argument("--output_list", type=list, required=True)
+    parser.add_argument("--output_list", type=str, required=True)
     args = parser.parse_args()
    
     
