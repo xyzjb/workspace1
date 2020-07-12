@@ -23,7 +23,7 @@ def transform():
 #         str_output="NNNNN"
 
 
-    str_output=os.path.exists('status.ok')
+    str_output=str(os.path.exists('status.ok'))
         
     Path(args.list_output1).parent.mkdir(parents=True, exist_ok=True)
     with open(args.list_output1, 'w') as f:
