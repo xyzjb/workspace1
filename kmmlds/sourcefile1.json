@@ -1,42 +1,18 @@
 {
-  "data": {
-    "names": [
-      "X-basic.hour",
-      "X-basic.horizon",
-      "i-set",
-      "EC-ws",
-      "EC-wd",
-      "EC-tmp",
-      "EC-presn",
-      "EC-rho",
-      "EC-dist",
-      "GFS-ws",
-      "GFS-wd",
-      "GFS-tmp",
-      "GFS-presn",
-      "GFS-rho",
-      "GFS-dist",
-      "sequence"
-    ],
-    "ndarray": [
-      [
-        16,
-        44,
-        397,
-        1.687,
-        248.817,
-        28.75,
-        850.912,
-        1.83,
-        63.256,
-        1.437,
-        262.969,
-        19.793,
-        848.528,
-        1.494,
-        69.468,
-        10932
-      ]
-    ]
-  }
+      "X-basic.hour":[16],
+      "X-basic.horizon":[44],
+      "i-set":[397],
+      "EC-ws":[1.687],
+      "EC-wd":[248.817],
+      "EC-tmp":[28.75],
+      "EC-presn":[850.912],
+      "EC-rho":[1.83],
+      "EC-dist":[63.256],
+      "GFS-ws":[1.437],
+      "GFS-wd":[262.969],
+      "GFS-tmp":[19.793],
+      "GFS-presn":[848.528],
+      "GFS-rho":[1.494],
+      "GFS-dist":[69.468],
+      "sequence":[10932]
 }
