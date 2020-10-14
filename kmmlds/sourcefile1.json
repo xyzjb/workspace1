@@ -1,1 +1,42 @@
-{   "data": {     "names": [       "sequence","X-basic.hour",       "X-basic.horizon",       "i-set",       "EC-ws",       "EC-wd",       "EC-tmp",       "EC-pres",       "EC-rho",       "EC-dist",       "GFS-ws",       "GFS-wd",       "GFS-tmp",       "GFS-pres",       "GFS-rho",       "GFS-dist"     ],     "ndarray": [       [     20000,    11,         37,         1,         2,         257,         18,         85,         0,         15,         1,         6,         20,         879,         1,         59       ],       [     200500,    1,         3,         1,         2,         57,         18,         85,         0,         15,         1,         1,         20,         879,         1,         59      ]     ]   } }
+{
+  "data": {
+    "names": [
+      "X-basic.hour",
+      "X-basic.horizon",
+      "i-set",
+      "EC-ws",
+      "EC-wd",
+      "EC-tmp",
+      "EC-presn",
+      "EC-rho",
+      "EC-dist",
+      "GFS-ws",
+      "GFS-wd",
+      "GFS-tmp",
+      "GFS-presn",
+      "GFS-rho",
+      "GFS-dist",
+      "sequence"
+    ],
+    "ndarray": [
+      [
+        16,
+        44,
+        397,
+        1.687,
+        248.817,
+        28.75,
+        850.912,
+        1.83,
+        63.256,
+        1.437,
+        262.969,
+        19.793,
+        848.528,
+        1.494,
+        69.468,
+        10932
+      ]
+    ]
+  }
+}
