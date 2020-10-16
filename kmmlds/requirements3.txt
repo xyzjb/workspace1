@@ -1,4 +1,4 @@
 pandas
 numpy
 pyarrow
-pyarrow._orc
+pyarrow.orc
