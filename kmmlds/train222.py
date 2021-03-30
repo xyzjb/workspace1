@@ -5,25 +5,26 @@ import pandas as pd
 import random
 import argparse
 
+import os
+import warnings
+import sys
+
+import pandas as pd
+import numpy as np
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import ElasticNet
+
+import mlflow
+import mlflow.sklearn
+    
+import logging
 
     
     
 # Model Tranining Sample
 def train(in_alpha, in_l1_ratio, masterid):
-    import os
-    import warnings
-    import sys
 
-    import pandas as pd
-    import numpy as np
-    from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-    from sklearn.model_selection import train_test_split
-    from sklearn.linear_model import ElasticNet
-
-    import mlflow
-    import mlflow.sklearn
-    
-    import logging
     ""
     logging.basicConfig(level=logging.WARN)
     logger = logging.getLogger(__name__)
@@ -75,7 +76,7 @@ def train(in_alpha, in_l1_ratio, masterid):
         l1_ratio = float(in_l1_ratio)
 
     # Useful for multiple runs (only doing one run in this sample notebook)    
-    with mlflow.start_run():
+    with mlflow.start_run() as run:
         # Execute ElasticNet
         lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
         lr.fit(train_x, train_y)
