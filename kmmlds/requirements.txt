@@ -2,3 +2,4 @@ aphrodite
 boto3
 scikit-learn
 mlflow
+eapdataset
