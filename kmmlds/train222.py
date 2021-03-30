@@ -56,8 +56,8 @@ def train(in_alpha, in_l1_ratio, masterid):
     train, test = train_test_split(data)
 
     # The predicted column is "power"
-    train_x = train.drop(["power","speed"], axis=1)
-    test_x = test.drop(["power","speed"], axis=1)
+    train_x = train.drop(["x_basic_forecast_time","x_basic_time","ec_nwp_time","gfs_nwp_time","power","speed"], axis=1)
+    test_x = test.drop(["x_basic_forecast_time","x_basic_time","ec_nwp_time","gfs_nwp_time","power","speed"], axis=1)
     train_y = train[["power"]]
     test_y = test[["power"]]
     
