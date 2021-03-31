@@ -20,7 +20,7 @@ def transform():
     #    str1='ABCDE0001'
    
     
-    str2=f'["--masterid","\'{str1}\'","--datasetname","\'{datasetname}\'"]'
+    str2=f'["--masterid","\'{str1}\'","--datasetname","{datasetname}"]'
 
    
     #list2=json.loads("["+abc+","+bcd+"]")
