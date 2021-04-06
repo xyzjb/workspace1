@@ -13,7 +13,7 @@ def main(args):
 
     Path(args.output).parent.mkdir(parents=True, exist_ok=True)
     str1=''
-    with open('/data/1/file1.txt') as f: 
+    with open('/tmp/data/1/file1.txt') as f: 
        str1=f.read()        
     with open(args.output, 'w') as sum_path:
         sum_path.write(str1)
