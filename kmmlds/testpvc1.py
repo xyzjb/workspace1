@@ -10,10 +10,10 @@ def main(args):
 
     args = parser.parse_args(args)
 
-    Path('/data/1/file1.txt').parent.mkdir(parents=True, exist_ok=True)
+    Path('/tmp/data/1/file1.txt').parent.mkdir(parents=True, exist_ok=True)
     #path=Path('/data/1')
     #path.mkdir()
-    with open('/data/1/file1.txt', 'w') as sum_path:
+    with open('/tmp/data/1/file1.txt', 'w') as sum_path:
         sum_path.write(args.file1)
     
 
